@@ -7,12 +7,12 @@
         </div>
         <div class="float-left students-table">
             <h2>Menu</h2>
-            <ul class="list-group mb-4">
+            <ul class="list-group mb-4"> 
                 {{-- <a href="/students/create" class="list-group-item list-group-item-action">Register New Student</a>
                 <a href="/fees/create" class="list-group-item list-group-item-action">Record Fee Payment</a> --}}
             </ul> 
         </div> 
-        <div class="float-left students-table">
+        <div class="float-left students-table"> 
             <table id="example" class="table table-stripped align-content-center">
                 <thead class="thead-dark">
                      <tr>
@@ -25,7 +25,7 @@
                 </thead>
                 <tbody>
                     @if(count($data['student']) > 0)
-                        @foreach ($data['student'] as $student)
+                        @foreach ($data['student'] as $student) 
                             <tr>
                                 <td>{{$student['student_id']}}</td>
                                 <td>{{$student['fullname']}}</td>

@@ -9,7 +9,7 @@
                 <th scope="col">Total Paid</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody> 
             @if(count($data['student']) > 0)
                 @foreach ($data['student'] as $student)
                     <tr>
